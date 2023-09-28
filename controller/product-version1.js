@@ -1,4 +1,4 @@
-const fs = require("fs");
+/* const fs = require("fs");
 const index = fs.readFileSync("index.html", "utf-8");
 const data = JSON.parse(fs.readFileSync("data.json", "utf-8"));
 const products = data.products;
@@ -38,3 +38,4 @@ exports.deleteProduct = (req, res) => {
   products.splice(productIndex, 1);
   res.status(201).json(product);
 };
+ */
