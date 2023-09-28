@@ -1,5 +1,5 @@
 require("dotenv").config();
-console.log("env pwd", process.env.DB_PASSWORD);
+//console.log("env pwd", process.env.DB_PASSWORD);
 const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
